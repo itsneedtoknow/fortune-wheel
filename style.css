@@ -5,8 +5,8 @@
     --neutral--2: #E3E3E3;
     --neutral--3: #F7F7F7;
     --neutral--4: #ababab;
-    --accent--1: #258db2;
-    --accent--2: #76d2f4;
+    --accent--1: rgb(255, 119, 0);
+    --accent--2: red;
 }
 * {
   box-sizing: border-box;
@@ -19,6 +19,7 @@ body{
     line-height: 20px;
     letter-spacing: 0.08px;
     background: linear-gradient(90deg, #FCFCF5 0%, rgba(252, 252, 245, 0.80) 50%, rgba(252, 252, 245, 0.80) 84.4%, rgba(252, 252, 245, 0.00) 100%);
+    background: #2b2b2d;
     min-height: 100vh;
     scroll-behavior: smooth;
     display: flex;
@@ -107,7 +108,9 @@ h2{
     animation: continuousRotation 10s linear infinite;
     will-change: transform;
 }
-
+.fortune-wheel__title{
+    color: var(--neutral--2);
+}
 .fortune-wheel__item{
     position: absolute;
     top: -50%;
@@ -144,7 +147,7 @@ h2{
     z-index: 3;
     border-style: solid;
     border-width: 12px 30px 12px 0;
-    border-color: transparent var(--accent--1) transparent transparent;
+    border-color: transparent var(--accent--2) transparent transparent;
 }
 .modal-alert{
     position: fixed;

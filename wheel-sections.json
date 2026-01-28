@@ -1,23 +1,23 @@
 [
+
   {
     "text": "Попробуй еще раз",
-    "color": "#FFFFBA" 
+    "color": "#66BB6A" 
   },
   {
     "text": "Скидка 5%",
-    "color": "#FFB3BA" 
+    "color": "#E57373" 
   },
-  
   {
     "text": "Джекпот",
-    "color": "#BAFFC9" 
+    "color": "#FBC02D" 
   },
   {
     "text": "Скидка 10%",
-    "color": "#BAE1FF" 
+    "color": "#42A5F5" 
   },
   {
     "text": "Приз-сюрприз",
-    "color": "#E0BBE4" 
+    "color": "#AB47BC" 
   }
 ]
