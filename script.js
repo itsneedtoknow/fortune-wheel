@@ -75,6 +75,12 @@ function showModal(text, isFinal = false) {
     modal.classList.add('modal-alert');
     if(isFinal){
         modal.innerHTML = `<p>${text}</p>`;
+        const link = modal.querySelector('.modal__link');
+        if (link) {
+            link.addEventListener('click', () => {
+                modal.remove(); 
+            });
+        }
     }if(isFinal == false){
         modal.innerHTML = `<p>${text}</p><button class="btn modal-btn" onclick="this.parentElement.remove()">OK</button>`;
     }
